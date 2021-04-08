@@ -26,10 +26,18 @@ fun f(vararg a:Int){// 가변인자
 }
 
 //배열을 입력받아서 합을 반환
+fun main(){
+    val list=listOf<int>(1,2,3)
+}
 fun f1(a:List<Int>):Int{
     var sum:Int=0
     for(i in List){
         sum+=i
     }
     return sum
+}
+
+// a%b의 값
+fun f1(a:Int, b:Int):Int {
+    return a%b
 }
